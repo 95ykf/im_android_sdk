@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="btn_deepgreen_normal">#0b7859</drawable>
+    <drawable name="btn_deepgreen_pressed">#0b5859</drawable>
+    <color name="colorLine">#EAEAEA</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="title_bar_background">#03a9f4</color>
+</resources>

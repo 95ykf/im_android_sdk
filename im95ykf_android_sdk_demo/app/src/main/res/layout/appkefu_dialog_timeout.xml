@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+~ Copyright (c) 2014, appkefu, Inc. All Rights Reserved.
+~ Please refer to the LICENSE file for the terms and conditions
+~ under which redistribution and use of this file is permitted.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appkefu_dialog_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appkefu_dialog_timeout_title"
+                style="@style/appkefuInteractionDialogTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="15dp"
+                android:text="@string/appkefu_timeout" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/appkefu_colorLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/appkefu_dialog_request_again"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/appkefu_faq_itembg"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/appkefu_request_again"
+                    android:textColor="@color/appkefu_dialog_title_text"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/appkefu_colorLine" />
+
+                <Button
+                    android:id="@+id/appkefu_dialog_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/appkefu_faq_itembg"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/appkefu_cancel"
+                    android:textColor="@color/appkefu_dialog_title_text"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+~ Copyright (c) 2014, appkefu, Inc. All Rights Reserved.
+~ Please refer to the LICENSE file for the terms and conditions
+~ under which redistribution and use of this file is permitted.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:paddingLeft="@dimen/appkefu_dialog_side_padding"
+        android:paddingRight="@dimen/appkefu_dialog_side_padding">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/appkefu_dialog_vertical_padding"
+            android:paddingTop="@dimen/appkefu_dialog_vertical_padding">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/appkefu_dialog_background"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/appkefu_dialog_finish_title"
+                    style="@style/appkefuInteractionDialogTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/appkefu_close_chat_session_asure" />
+
+                <Button
+                    android:id="@+id/appkefu_dialog_close_chat"
+                    style="@style/appkefuInteractionPositiveButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/appkefu_ok" />
+
+                <Button
+                    android:id="@+id/appkefu_dialog_leave_chat"
+                    style="@style/appkefuInteractionNegativeButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/appkefu_titlebar_leavebtn_title" />
+
+                <Button
+                    android:id="@+id/appkefu_dialog_cancel"
+                    style="@style/appkefuInteractionNegativeButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/appkefu_cancel" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+
